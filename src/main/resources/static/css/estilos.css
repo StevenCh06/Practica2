@@ -1,0 +1,65 @@
+/* 
+    Created on : 29 sept 2023, 15:59:40
+    Author     : Steven
+*/
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 20%;
+    width: 80%;
+    padding: 10px;
+}
+
+.slider-container {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  overflow-x: scroll;
+
+  /* Vamos a añadir esto 👇 */
+  scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+
+  /* Vamos a añadir esto 👇 */
+  scroll-snap-align: center;
+}
+
+
+
+#piePagina {
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+#tituloPrincipal {
+    
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contenido {
+    text-align: justify;
+}
+
+
+

@@ -1,0 +1,41 @@
+#contenidoInfo{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 35%;
+    left:2%;    
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#contenidoUbi{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    left:60%;    
+    padding: 30px;
+}
+
+#titulo{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 6%;
+    left: 35%;    
+    padding: 30px;
+    color: #CEA912;
+}
+
+#piePagina {
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}

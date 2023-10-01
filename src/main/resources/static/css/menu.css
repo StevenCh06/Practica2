@@ -1,0 +1,62 @@
+/* 
+    Created on : 29 sept 2023, 16:02:55
+    Author     : Steven
+*/
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #68CD39;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu-item {
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-menu-item a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-menu-item a:hover {
+    color: #D71717;
+}
+
